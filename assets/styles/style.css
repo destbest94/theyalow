@@ -1,0 +1,75 @@
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1020px;
+  margin: 0 auto;
+  padding-top: 27px;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/PTSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PTSansItalic";
+  src: url("../fonts/PTSans-RegularItalic.ttf");
+}
+
+@font-face {
+  font-family: "LucidaSans";
+  src: url("../fonts/lucida-sans/LucidaSansRegular.ttf");
+}
+
+@font-face {
+  font-family: "PTSansBoldItalic";
+  src: url("../fonts/PTSans-BoldItalic.ttf");
+}
+
+.header {
+  height: 100%;
+  background: url("../img/main-bg.png");
+  height: 560px;
+  position: relative; 
+}
+
+.top-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo > img + img {
+  transform: rotate(44deg);
+  position: absolute;
+  opacity: 0.5;
+}
+
+.logo > .text {
+  font-style: italic;
+  text-transform: uppercase;
+  color: white;
+  font-size: 41px;
+  margin: 11px 0 0 2px;
+  font-family: 'LucidaSans'
+}
+
+
+
+
+.main {
+  height: 500px;
+}
