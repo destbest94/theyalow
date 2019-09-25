@@ -6,7 +6,6 @@
 .inner {
   width: 1020px;
   margin: 0 auto;
-  padding-top: 27px;
 }
 
 @font-face {
@@ -29,47 +28,118 @@
   src: url("../fonts/PTSans-BoldItalic.ttf");
 }
 
-.header {
-  height: 100%;
-  background: url("../img/main-bg.png");
-  height: 560px;
-  position: relative; 
+@font-face {
+  font-family: "SegueWP";
+  src: url("../fonts/segoe-wp-cufonfonts/SegoeWP.ttf");
 }
 
-.top-side {
+.section-1 {
+  background: url("../img/section-1-bg.png");
+  height: 565px;
+}
+
+.section-2 {
+  background: url("../img/section-2-bg.png");
+  height: 212px;
+  box-shadow: 0px 2px 3px #4d4c4c, 0px -2px 3px #4d4c4c;
+  z-index: 1;
+  position: relative;
+}
+
+.section-3 {
+  background: url("../img/section-3-bg.png");
+  height: 509px;
+}
+
+.section-4 {
+  background: url("../img/section-4-bg.png");
+  height: 496px;
+}
+
+.footer {
+  background-color: #4c4c4c;
+  height: 65px;
+  box-shadow: 0 -2px 3px #000000;
+}
+
+.header {
+  padding-top: 27px;
+  height: 85px;
   display: flex;
   justify-content: space-between;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
+  align-items: center;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'LucidaSans';
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.img-area {
+  display: flex;
   position: relative;
 }
 
-.logo > img + img {
+.img-area > img + img {
   transform: rotate(44deg);
-  position: absolute;
   opacity: 0.5;
+  position: absolute;
 }
 
-.logo > .text {
-  font-style: italic;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 453px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  margin-top: 24px;
+  width: 100%;
   text-transform: uppercase;
-  color: white;
-  font-size: 41px;
-  margin: 11px 0 0 2px;
-  font-family: 'LucidaSans'
+  background-color: #f5c506;
+  color: #9b7d08;
+  z-index: 3;
 }
 
+.menu:hover {
+  cursor: pointer;
+  background-color: #f7cf31;
+}
 
+.menu > img {
+  padding: 8px;
+}
 
+.menu + .menu {
+  border-left: 1px solid #dcb105;
+}
 
-.main {
-  height: 500px;
+.menu-bg-1 {
+  width: 453px;
+  height: 41px;
+  right: 8px;
+  top: 13px;
+  position: absolute;
+  background-color: rgba(245, 197, 6, 0.27);
+  z-index: 1;
+}
+
+.menu-bg-2 {
+  width: 453px;
+  height: 41px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  background-color: rgba(245, 197, 6, 0.27);
+  z-index: 2;
 }
