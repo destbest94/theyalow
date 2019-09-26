@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "LucidaSans";
-  src: url("../fonts/lucida-sans/LucidaSansRegular.ttf");
+  src: url("../fonts/lucida-sans/lucida\ sans\ halbfett\ kursiv.ttf");
 }
 
 @font-face {
@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'LucidaSans';
   font-style: italic;
   text-transform: uppercase;
@@ -144,7 +144,7 @@
   z-index: 2;
 }
 
-.content {
+.section-1 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,13 +158,13 @@
   align-items: center;
 }
 
-.video {
+.main .video {
   width: 549px;
   height: 327px;
   margin-left: 10px;
 }
 
-.content .text {
+.section-1 .content .text {
   width: 430px;
   height: 327px;
   display: flex;
@@ -177,15 +177,15 @@
   text-transform: uppercase;
 }
 
-.content .text .text-1 {
+.section-1 .content .text .text-1 {
   color: #f5c506;
 }
 
-.content .text .text-2 {
+.section-1 .content .text .text-2 {
   color: #fff;
 }
 
-.content .btn {
+.section-1 .content .btn {
   width: 32px;
   height: 57px;
   background-color: #f5c506;
@@ -194,7 +194,7 @@
   align-items: center;
 }
 
-.content .btn:hover {
+.section-1 .content .btn:hover {
   cursor: pointer;
 }
 
@@ -245,4 +245,48 @@
 
 .service-3 {
   border-right: 1px solid #d4d4d4;
+}
+
+.section-3 {
+  color: white;
+}
+
+.section-3 .title {
+  font-size: 37px;
+  text-transform: uppercase;
+  font-family: 'SegueWP';
+  padding: 35px 0;
+}
+
+.section-3 .news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3 .news-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-3 .video {
+  margin: 0;
+  padding: 0;
+}
+
+.section-3 .text {
+  font-size: 29px;
+  box-sizing: border-box;
+  font-family: 'SegueWP';
+  height: 233px;
+  width: 340px;
+  padding: 20px;
+  background-color: #ec9e03;
+}
+
+.section-3 .twitter {
+  box-sizing: border-box;
+  height: 233px;
+  width: 340px;
+  padding: 20px;
+  background-color: #ec9e03;
 }
