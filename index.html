@@ -14,10 +14,9 @@
       <div class="header">
         <div class="logo">
           <div class="img-area">
-            <img class="img" src="./assets/img/logo.png" alt="logo">
-            <img class="img" src="./assets/img/logo.png" alt="logo">
+            <img class="img" src="./assets/img/logo.svg" alt="logo">
           </div>
-          <h1 class="text">TheYalow</h1>
+          <h1 class="title">TheYalow</h1>
         </div>
         <div class="nav">
           <div class="menu-bg-1">
@@ -32,11 +31,29 @@
     </div>
     <div class="content">
       <div class="left-btn btn"><img src="./assets/img/left-btn.svg" alt="left-btn"></div>
-      <div class="main inner">
+      <div class="main">
         <div class="video">
-          <video width="549" height="327" controls poster="./assets/img/video-screen.png">
+          <video poster="./assets/img/video-screen.png">
             Your browser does not support HTML5 video.
           </video>
+          <div class="controls-wrapper">
+            <div class="controls">
+              <div class="play">
+                <img src="./assets/img/play.svg" alt="play">
+              </div>
+              <div class="main-controls">
+                <div class="play-sm">
+                  <img src="./assets/img/play-sm.svg" alt="play-sm">
+                </div>
+                <div class="progress">
+                  <progress id='progress-bar' min='0' max='100' value='40'>0%</progress>
+                </div>
+                <div class="mute">
+                  <img src="./assets/img/mute.svg" alt="mute">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="text">
           <div class="text-1">
@@ -85,7 +102,7 @@
               </div>
             </div>
             <div class="video">
-              <video width="315" height="232" controls poster="./assets/img/s3-1.png">
+              <video controls poster="./assets/img/s3-1.png">
                 Your browser does not support HTML5 video.
               </video>
             </div>
@@ -99,6 +116,23 @@
             </div>
             <div class="plus-wrapper">
               <div class="plus">+</div>
+            </div>
+            <div class="form-wrapper">
+              <form action="" method="post">
+                <div class="message">Daily Mobile UI Design Inspiration #1 
+                  <br>via @cssauthor
+                </div>
+                <div class="message">Daily Mobile UI Design Inspiration #1 
+                  <br>via @cssauthor
+                </div>
+                <div class="message">Daily Mobile UI Design Inspiration #1 
+                  <br>via @cssauthor
+                </div>
+                <div class="input-wrapper">
+                  <input type="text" name="tweet" id="tweet" class="tweet-input">
+                  <input type="submit" value="Tweet">
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -151,8 +185,7 @@
     <div class="inner">
       <div class="logo">
         <div class="img-area">
-          <img class="img" src="./assets/img/logo.png" alt="logo">
-          <img class="img" src="./assets/img/logo.png" alt="logo">
+          <img class="img" src="./assets/img/logo.svg" alt="logo">
         </div>
         <div class="text">TheYalow</div>
       </div>
